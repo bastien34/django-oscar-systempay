@@ -2,61 +2,203 @@
 # Copyright (C) 2012 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-11-23 12:22+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-01 13:45+0000\n"
 "PO-Revision-Date: 2012-11-27 15:29\n"
 "Last-Translator: Loic Gallopin <lgallopin@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "X-Translated-Using: django-rosetta 0.6.8\n"
 
-#: views.py:61 views.py:161
+#: django-oscar-systempay/systempay/facade.py:105
+#, python-format
+msgid ""
+"The data received are not complete: %s. See the transaction record #%s for "
+"more details"
+msgstr ""
+
+#: django-oscar-systempay/systempay/facade.py:114
+#, python-format
+msgid "Signature not valid. Get '%s' instead of '%s'"
+msgstr ""
+
+#: django-oscar-systempay/systempay/facade.py:120
+#, python-format
+msgid "Incorrect signature. Check SystemPayTransaction #%s for more details"
+msgstr ""
+
+#: django-oscar-systempay/systempay/gateway.py:150
+#, python-format
+msgid "You're going to be redirect to %s"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:6
+msgid "SystemPay transaction"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:12
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:12
+msgid "Dashboard"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:15
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:6
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:14
+msgid "SystemPay transactions"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:23
+#, python-format
+msgid ""
+"\n"
+"        Transaction %(id)s\n"
+"    "
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:31
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:28
+msgid "Trans ID"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:32
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:33
+msgid "Date"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:33
+msgid "Operation type"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:34
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:32
+msgid "Amount"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:35
+msgid "Currency"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:36
+msgid "Result"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:37
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:34
+msgid "Status"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:38
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:35
+msgid "Message"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:39
+msgid "Request params"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_detail.html:40
+msgid "Response params"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:19
+msgid "SystemPay Transactions"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:29
+msgid "Mode"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:30
+msgid "Order N°"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:31
+msgid "Op. Type"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/dashboard/transaction_list.html:55
+#, fuzzy
+#| msgid "The transaction has be canceled"
+msgid "No transactions have been made yet."
+msgstr "La transaction a été annulée"
+
+#: django-oscar-systempay/systempay/templates/systempay/preview.html:5
+msgid "Order preview"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/preview.html:13
+msgid "Preview order"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/preview.html:18
+msgid "SystemPay"
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/preview.html:45
+msgid "Submitting..."
+msgstr ""
+
+#: django-oscar-systempay/systempay/templates/systempay/preview.html:45
+msgid "Place order"
+msgstr ""
+
+#: django-oscar-systempay/systempay/views.py:58
+#: django-oscar-systempay/systempay/views.py:134
 msgid "No order found"
 msgstr "Aucune commande trouvée"
 
-#: views.py:166
+#: django-oscar-systempay/systempay/views.py:139
 msgid "The page requested seems outdated"
 msgstr "La page demandée ne semble plus exister."
 
-#: views.py:182
+#: django-oscar-systempay/systempay/views.py:157
+#, fuzzy
+#| msgid ""
+#| "No response received from your bank for the moment. Be patient, we'll get "
+#| "back to you as soon as we receive it."
 msgid ""
-"No response received from your bank for the moment. Be patient, we'll get "
-"back to you as soon as we receive it."
+"No response received from your bank. Be patient, we'll get back to you as "
+"soon as we receive it."
 msgstr ""
 "Aucune réponse reçue de votre banque pour le moment. Soyez patient, nous "
 "reviendrons vers vous dès que nous la recevrons."
 
-#: views.py:187
+#: django-oscar-systempay/systempay/views.py:165
 msgid "Your payment has been successfully validated."
 msgstr "Votre paiement a été validé avec succès."
 
-#: views.py:189
+#: django-oscar-systempay/systempay/views.py:170
+#, fuzzy
+#| msgid ""
+#| "Your payment has been rejected for the reason. You will not be charged. "
+#| "Contact the support for more details."
 msgid ""
-"Your payment has been rejected for the reason. You will not be charged. "
-"Contact the support for more details."
+"Your payment has been rejected. You will not be charged. Contact support for "
+"more details."
 msgstr ""
 "Paiement refusé. Vous ne serez pas facturé. Contactez le support pour plus "
 "de détails."
 
-#: views.py:207
-msgid "The transaction has be canceled"
+#: django-oscar-systempay/systempay/views.py:191
+#, fuzzy
+#| msgid "The transaction has be canceled"
+msgid "The transaction has been canceled"
 msgstr "La transaction a été annulée"
 
-#: views.py:255
+#: django-oscar-systempay/systempay/views.py:270
 #, python-format
 msgid "Unknown operation type '%(operation_type)s'"
 msgstr "Type d'opération inconnue '%(operation_type)s'"
 
-#: views.py:261 views.py:262
-#, python-format
-msgid "Unable to retrieve Order #%(order_number)s"
-msgstr "Impossible de retrouver la commande #%(order_number)s"
+#~ msgid "Unable to retrieve Order #%(order_number)s"
+#~ msgstr "Impossible de retrouver la commande #%(order_number)s"

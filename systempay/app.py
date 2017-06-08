@@ -31,7 +31,6 @@ class SystemPayApplication(Application):
                 name='return-response'),
             url(r'^cancel$', self.cancel_response_view.as_view(),
                 name='cancel-response'),
-
             url(r'^handle-ipn$', csrf_exempt(self.handle_ipn_view.as_view()),
                 name='handle-ipn'),
         ]
